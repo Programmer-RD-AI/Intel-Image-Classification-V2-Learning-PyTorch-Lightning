@@ -1,0 +1,13 @@
+GPU available: True, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+/home/indika/anaconda3/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py:1304: UserWarning: GPU available but not used. Set the gpus flag in your trainer `Trainer(gpus=1)` or script `--gpus=1`.
+  "GPU available but not used. Set the gpus flag in your trainer"
+Traceback (most recent call last):
+  File "/home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/0.py", line 55, in <module>
+    trainer.fit(Model())
+  File "/home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/0.py", line 17, in __init__
+    self.activation = ReLU()
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1160, in __setattr__
+    "cannot assign module before Module.__init__() call")
+AttributeError: cannot assign module before Module.__init__() call

@@ -1,0 +1,19 @@
+GPU available: True, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+/home/indika/anaconda3/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py:1304: UserWarning: GPU available but not used. Set the gpus flag in your trainer `Trainer(gpus=1)` or script `--gpus=1`.
+  "GPU available but not used. Set the gpus flag in your trainer"
+Traceback (most recent call last):
+  File "/home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/0.py", line 56, in <module>
+    trainer.fit(Model())
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 552, in fit
+    self._run(model)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 849, in _run
+    self.config_validator.verify_loop_configurations(model)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/pytorch_lightning/trainer/configuration_validator.py", line 34, in verify_loop_configurations
+    self.__verify_train_loop_configuration(model)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/pytorch_lightning/trainer/configuration_validator.py", line 49, in __verify_train_loop_configuration
+    has_training_step = is_overridden("training_step", model)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/pytorch_lightning/utilities/model_helpers.py", line 45, in is_overridden
+    raise ValueError("Expected a parent")
+ValueError: Expected a parent

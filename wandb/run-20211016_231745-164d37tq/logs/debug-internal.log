@@ -1,0 +1,164 @@
+2021-10-16 23:17:46,007 INFO    MainThread:684035 [internal.py:wandb_internal():89] W&B internal server running at pid: 684035, started at: 2021-10-16 23:17:46.006827
+2021-10-16 23:17:46,008 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: check_version
+2021-10-16 23:17:46,008 INFO    WriterThread:684035 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/run-164d37tq.wandb
+2021-10-16 23:17:46,010 DEBUG   SenderThread:684035 [sender.py:send():182] send: header
+2021-10-16 23:17:46,010 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: check_version
+2021-10-16 23:17:46,507 DEBUG   SenderThread:684035 [sender.py:send():182] send: run
+2021-10-16 23:17:46,510 DEBUG   SenderThread:684035 [git.py:repo():33] git repository is invalid
+2021-10-16 23:17:47,013 INFO    SenderThread:684035 [dir_watcher.py:__init__():169] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files
+2021-10-16 23:17:47,014 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: run_start
+2021-10-16 23:17:47,014 INFO    SenderThread:684035 [sender.py:_start_run_threads():743] run started: 164d37tq with start time 1634406465
+2021-10-16 23:17:47,016 DEBUG   SenderThread:684035 [sender.py:send():182] send: summary
+2021-10-16 23:17:47,016 INFO    SenderThread:684035 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-16 23:17:47,020 DEBUG   HandlerThread:684035 [meta.py:__init__():40] meta init
+2021-10-16 23:17:47,021 DEBUG   HandlerThread:684035 [meta.py:__init__():54] meta init done
+2021-10-16 23:17:47,021 DEBUG   HandlerThread:684035 [meta.py:probe():211] probe
+2021-10-16 23:17:47,028 DEBUG   HandlerThread:684035 [git.py:repo():33] git repository is invalid
+2021-10-16 23:17:47,028 DEBUG   HandlerThread:684035 [meta.py:_save_code():90] save code
+2021-10-16 23:17:47,028 DEBUG   HandlerThread:684035 [meta.py:_save_code():111] save code done
+2021-10-16 23:17:47,028 DEBUG   HandlerThread:684035 [meta.py:_save_pip():58] save pip
+2021-10-16 23:17:47,029 DEBUG   HandlerThread:684035 [meta.py:_save_pip():72] save pip done
+2021-10-16 23:17:47,029 DEBUG   HandlerThread:684035 [meta.py:_save_conda():79] save conda
+2021-10-16 23:17:48,017 INFO    Thread-8  :684035 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/requirements.txt
+2021-10-16 23:17:48,017 INFO    Thread-8  :684035 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/conda-environment.yaml
+2021-10-16 23:17:48,017 INFO    Thread-8  :684035 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/code/0.py
+2021-10-16 23:17:48,017 INFO    Thread-8  :684035 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/wandb-summary.json
+2021-10-16 23:17:48,018 INFO    Thread-8  :684035 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/code
+2021-10-16 23:17:53,016 INFO    Thread-8  :684035 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/output.log
+2021-10-16 23:17:54,016 INFO    Thread-8  :684035 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/conda-environment.yaml
+2021-10-16 23:17:54,168 DEBUG   HandlerThread:684035 [meta.py:_save_conda():87] save conda done
+2021-10-16 23:17:54,168 DEBUG   HandlerThread:684035 [meta.py:probe():249] probe done
+2021-10-16 23:17:54,249 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-16 23:17:54,249 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: stop_status
+2021-10-16 23:17:54,530 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:54,794 DEBUG   SenderThread:684035 [sender.py:send():182] send: files
+2021-10-16 23:17:54,798 INFO    SenderThread:684035 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-10-16 23:17:54,799 INFO    SenderThread:684035 [sender.py:_save_file():873] saving file code/0.py with policy now
+2021-10-16 23:17:54,800 DEBUG   SenderThread:684035 [sender.py:send():182] send: telemetry
+2021-10-16 23:17:54,800 DEBUG   SenderThread:684035 [sender.py:send():182] send: exit
+2021-10-16 23:17:54,800 INFO    SenderThread:684035 [sender.py:send_exit():291] handling exit code: 1
+2021-10-16 23:17:54,800 INFO    SenderThread:684035 [sender.py:send_exit():293] handling runtime: 7
+2021-10-16 23:17:54,801 INFO    SenderThread:684035 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-16 23:17:54,804 INFO    SenderThread:684035 [sender.py:send_exit():303] send defer
+2021-10-16 23:17:54,805 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:54,805 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: defer
+2021-10-16 23:17:54,805 INFO    HandlerThread:684035 [handler.py:handle_request_defer():143] handle defer: 0
+2021-10-16 23:17:54,806 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: defer
+2021-10-16 23:17:54,806 INFO    SenderThread:684035 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-10-16 23:17:54,806 INFO    SenderThread:684035 [sender.py:transition_state():316] send defer: 1
+2021-10-16 23:17:54,806 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: defer
+2021-10-16 23:17:54,806 INFO    HandlerThread:684035 [handler.py:handle_request_defer():143] handle defer: 1
+2021-10-16 23:17:54,914 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:54,914 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: defer
+2021-10-16 23:17:54,914 INFO    SenderThread:684035 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-10-16 23:17:54,914 INFO    SenderThread:684035 [sender.py:transition_state():316] send defer: 2
+2021-10-16 23:17:54,915 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:54,915 DEBUG   SenderThread:684035 [sender.py:send():182] send: stats
+2021-10-16 23:17:54,915 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: defer
+2021-10-16 23:17:54,915 INFO    HandlerThread:684035 [handler.py:handle_request_defer():143] handle defer: 2
+2021-10-16 23:17:54,915 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: defer
+2021-10-16 23:17:54,916 INFO    SenderThread:684035 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-10-16 23:17:54,916 INFO    SenderThread:684035 [sender.py:transition_state():316] send defer: 3
+2021-10-16 23:17:54,916 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: defer
+2021-10-16 23:17:54,916 INFO    HandlerThread:684035 [handler.py:handle_request_defer():143] handle defer: 3
+2021-10-16 23:17:54,916 DEBUG   SenderThread:684035 [sender.py:send():182] send: summary
+2021-10-16 23:17:54,916 INFO    SenderThread:684035 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-16 23:17:54,916 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: defer
+2021-10-16 23:17:54,917 INFO    SenderThread:684035 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-10-16 23:17:54,917 INFO    SenderThread:684035 [sender.py:transition_state():316] send defer: 4
+2021-10-16 23:17:54,917 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: defer
+2021-10-16 23:17:54,917 INFO    HandlerThread:684035 [handler.py:handle_request_defer():143] handle defer: 4
+2021-10-16 23:17:54,917 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: defer
+2021-10-16 23:17:54,917 INFO    SenderThread:684035 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-10-16 23:17:55,016 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:55,017 INFO    Thread-8  :684035 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/output.log
+2021-10-16 23:17:55,017 INFO    Thread-8  :684035 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/wandb-summary.json
+2021-10-16 23:17:55,017 INFO    Thread-8  :684035 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/wandb-metadata.json
+2021-10-16 23:17:55,422 INFO    SenderThread:684035 [sender.py:transition_state():316] send defer: 5
+2021-10-16 23:17:55,422 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:55,422 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: defer
+2021-10-16 23:17:55,422 INFO    HandlerThread:684035 [handler.py:handle_request_defer():143] handle defer: 5
+2021-10-16 23:17:55,422 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: defer
+2021-10-16 23:17:55,422 INFO    SenderThread:684035 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-10-16 23:17:55,423 INFO    SenderThread:684035 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-16 23:17:55,523 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:55,865 INFO    Thread-11 :684035 [upload_job.py:push():137] Uploaded file /tmp/tmpfiv0chxowandb/3cya9bi5-wandb-metadata.json
+2021-10-16 23:17:55,899 INFO    Thread-12 :684035 [upload_job.py:push():137] Uploaded file /tmp/tmpfiv0chxowandb/3arylmsg-code/0.py
+2021-10-16 23:17:56,017 INFO    Thread-8  :684035 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/config.yaml
+2021-10-16 23:17:56,018 INFO    SenderThread:684035 [dir_watcher.py:finish():313] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files
+2021-10-16 23:17:56,018 INFO    SenderThread:684035 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/output.log output.log
+2021-10-16 23:17:56,018 INFO    SenderThread:684035 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/wandb-metadata.json wandb-metadata.json
+2021-10-16 23:17:56,019 INFO    SenderThread:684035 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/wandb-summary.json wandb-summary.json
+2021-10-16 23:17:56,024 INFO    SenderThread:684035 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/config.yaml config.yaml
+2021-10-16 23:17:56,028 INFO    SenderThread:684035 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/conda-environment.yaml conda-environment.yaml
+2021-10-16 23:17:56,034 INFO    SenderThread:684035 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/requirements.txt requirements.txt
+2021-10-16 23:17:56,042 INFO    SenderThread:684035 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/code/0.py code/0.py
+2021-10-16 23:17:56,043 INFO    SenderThread:684035 [sender.py:transition_state():316] send defer: 6
+2021-10-16 23:17:56,043 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:56,043 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: defer
+2021-10-16 23:17:56,043 INFO    HandlerThread:684035 [handler.py:handle_request_defer():143] handle defer: 6
+2021-10-16 23:17:56,043 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: defer
+2021-10-16 23:17:56,043 INFO    SenderThread:684035 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-10-16 23:17:56,044 INFO    SenderThread:684035 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-16 23:17:56,144 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:56,144 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:56,246 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:56,246 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:56,348 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:56,348 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:56,449 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:56,450 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:56,552 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:56,553 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:56,654 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:56,655 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:56,756 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:56,756 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:56,858 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:56,858 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:56,960 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:56,960 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:57,061 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:57,062 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:57,163 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:57,163 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:57,169 INFO    Thread-17 :684035 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/requirements.txt
+2021-10-16 23:17:57,190 INFO    Thread-15 :684035 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/config.yaml
+2021-10-16 23:17:57,199 INFO    Thread-13 :684035 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/output.log
+2021-10-16 23:17:57,201 INFO    Thread-16 :684035 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/conda-environment.yaml
+2021-10-16 23:17:57,254 INFO    Thread-14 :684035 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/files/wandb-summary.json
+2021-10-16 23:17:57,265 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:57,265 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:57,366 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:57,367 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:57,454 INFO    Thread-7  :684035 [sender.py:transition_state():316] send defer: 7
+2021-10-16 23:17:57,455 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: defer
+2021-10-16 23:17:57,455 INFO    HandlerThread:684035 [handler.py:handle_request_defer():143] handle defer: 7
+2021-10-16 23:17:57,455 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: defer
+2021-10-16 23:17:57,456 INFO    SenderThread:684035 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-10-16 23:17:57,468 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:57,798 INFO    SenderThread:684035 [sender.py:transition_state():316] send defer: 8
+2021-10-16 23:17:57,799 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:57,799 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: defer
+2021-10-16 23:17:57,799 INFO    HandlerThread:684035 [handler.py:handle_request_defer():143] handle defer: 8
+2021-10-16 23:17:57,799 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: defer
+2021-10-16 23:17:57,799 INFO    SenderThread:684035 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-10-16 23:17:57,799 INFO    SenderThread:684035 [sender.py:transition_state():316] send defer: 9
+2021-10-16 23:17:57,800 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: defer
+2021-10-16 23:17:57,800 DEBUG   SenderThread:684035 [sender.py:send():182] send: final
+2021-10-16 23:17:57,800 INFO    HandlerThread:684035 [handler.py:handle_request_defer():143] handle defer: 9
+2021-10-16 23:17:57,800 DEBUG   SenderThread:684035 [sender.py:send():182] send: footer
+2021-10-16 23:17:57,800 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: defer
+2021-10-16 23:17:57,800 INFO    SenderThread:684035 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-10-16 23:17:57,900 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-16 23:17:57,900 DEBUG   SenderThread:684035 [sender.py:send_request():196] send_request: poll_exit
+2021-10-16 23:17:57,901 INFO    SenderThread:684035 [file_pusher.py:join():182] waiting for file pusher
+2021-10-16 23:17:57,902 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: get_summary
+2021-10-16 23:17:57,902 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: sampled_history
+2021-10-16 23:17:57,903 DEBUG   HandlerThread:684035 [handler.py:handle_request():126] handle_request: shutdown
+2021-10-16 23:17:57,903 INFO    HandlerThread:684035 [handler.py:finish():683] shutting down handler
+2021-10-16 23:17:58,800 INFO    WriterThread:684035 [datastore.py:close():281] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch-Lightning/Intel-Image-Classification-V2-Learning-PyTorch-Lightning/wandb/run-20211016_231745-164d37tq/run-164d37tq.wandb
+2021-10-16 23:17:58,901 INFO    SenderThread:684035 [sender.py:finish():979] shutting down sender
+2021-10-16 23:17:58,901 INFO    SenderThread:684035 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-16 23:17:58,901 INFO    SenderThread:684035 [file_pusher.py:join():182] waiting for file pusher
+2021-10-16 23:17:58,903 INFO    MainThread:684035 [internal.py:handle_exit():76] Internal process exited
